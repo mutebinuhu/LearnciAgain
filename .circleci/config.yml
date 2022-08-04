@@ -21,11 +21,13 @@ jobs:
   print_hello:
       docker:
         - image: circleci/node:13.8.0
+      environment:
+        NAME:"MUTEBI NUHU"
       steps:
         - checkout
         - run:
             name: "print hello"
-            command: "echo hello"
+            command: "echo ${NAME}"
 
   print_world:
       docker:
