@@ -22,7 +22,7 @@ jobs:
       docker:
         - image: circleci/node:13.8.0
       environment:
-        NAME:"MUTEBI NUHU"
+        NAME: MUTEBI NUHU
       steps:
         - checkout
         - run:
