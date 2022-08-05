@@ -3,8 +3,7 @@
 version: 2.1
 commands:
   print_pipeline_id:
-     docker:
-      - image: cimg/base:stable
+     description: "this will print the circle ci to the command line"
      steps:
       - checkout
       - run:
