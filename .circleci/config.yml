@@ -107,3 +107,4 @@ workflows:
           requires:
             - save_hello_world_output
       - print_workflow_id
+      - test_fail
